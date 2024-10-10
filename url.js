@@ -8,4 +8,6 @@ myUrl.pathname = "/a/path/name";
 
 const newUrl = new URL("/print/me", "https://secondexample.com");
 
+newUrl.port = 21;
+
 console.log(newUrl.href);
